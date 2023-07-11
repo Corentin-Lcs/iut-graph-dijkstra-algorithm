@@ -1,0 +1,98 @@
+{ Performances }
+
+Here are the performance metrics for the different graph types (orig / barabasi / full) :
+
+1) Dorogovtsev-Mendes (orig)
+
+- DorogovtsevMendes 100-1 :
+
+GrapheLArcs : 5 milliseconds
+GrapheLAdj : 0 millisecond
+GrapheMAdj : 1 millisecond
+GrapheHHAdj : 0 millisecond
+
+- DorogovtsevMendes 1000-1 :
+
+GrapheLArcs : 50 milliseconds
+GrapheLAdj : 4 milliseconds
+GrapheMAdj : 29 milliseconds
+GrapheHHAdj : 6 milliseconds
+
+- DorogovtsevMendes 10000-1 :
+
+GrapheLArcs : 2 091 milliseconds
+GrapheLAdj : 27 milliseconds
+GrapheMAdj : 525 milliseconds
+GrapheHHAdj : 43 milliseconds
+
+- DorogovtsevMendes 100000-1 :
+
+GrapheLAdj : 450 milliseconds
+GrapheHHAdj : 346 milliseconds
+
+- DorogovtsevMendes 1000000-1 :
+
+GrapheLAdj : 16 624 milliseconds
+GrapheHHAdj : 16 147 milliseconds
+
+2) Barabasi-Albert (barabasi)
+
+- Barabasi 102-1 :
+
+GrapheLArcs : 15 milliseconds
+GrapheLAdj : 1 millisecond
+GrapheMAdj : 3 milliseconds
+GrapheHHAdj : 0 millisecond
+
+- Barabasi 1002-1 :
+
+GrapheLArcs : 141 milliseconds
+GrapheLAdj : 8 milliseconds
+GrapheMAdj : 41 milliseconds
+GrapheHHAdj : 2 milliseconds
+
+- Barabasi 10002-1 :
+
+GrapheLArcs : 13 041 milliseconds
+GrapheLAdj : 143 milliseconds
+GrapheMAdj : 1 501 milliseconds
+GrapheHHAdj : 87 milliseconds
+
+- Barabasi 100002-1 :
+
+GrapheLAdj : 6 235 milliseconds
+GrapheHHAdj : 5 645 milliseconds
+
+- Barabasi 1000002-1 :
+
+GrapheLAdj : 1 632 550 milliseconds
+GrapheHHAdj : 1 662 960 milliseconds
+
+3) Full-Connected (full)
+
+- Full 101-1 :
+
+GrapheLArcs : 84 milliseconds
+GrapheLAdj : 5 milliseconds
+GrapheMAdj : 12 milliseconds
+GrapheHHAdj : 5 milliseconds
+
+- Full 301-1 :
+
+GrapheLArcs : 4 932 milliseconds
+GrapheLAdj : 36 milliseconds
+GrapheMAdj : 65 milliseconds
+GrapheHHAdj : 14 milliseconds
+
+- Full 501-1 :
+
+GrapheLArcs : 48 960 milliseconds
+GrapheLAdj : 79 milliseconds
+GrapheMAdj : 224 milliseconds
+GrapheHHAdj : 31 milliseconds
+
+- Full 1001-1 :
+
+GrapheLAdj : 380 milliseconds
+GrapheMAdj : 1 397 milliseconds
+GrapheHHAdj : 151 milliseconds
